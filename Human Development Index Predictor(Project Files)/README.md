@@ -6,13 +6,13 @@ An end-to-end Machine Learning web application that predicts the **Human Develop
 
 ## 📖 Project Overview
 
-The Human Development Index (HDI) is a composite measure developed by the United Nations Development Programme (UNDP) to assess a country's overall development. It considers three major dimensions:
+The **Human Development Index (HDI)** is a composite measure developed by the United Nations Development Programme (UNDP) to assess a country's overall development. It considers three major dimensions:
 
-- Health (Life Expectancy)
-- Education (Expected & Mean Years of Schooling)
-- Standard of Living (Gross National Income per Capita)
+- 🩺 Health (Life Expectancy)
+- 🎓 Education (Expected Years of Schooling & Mean Years of Schooling)
+- 💰 Standard of Living (Gross National Income per Capita)
 
-This project uses Machine Learning to predict the HDI score from these indicators and classifies the result into different Human Development categories.
+This project uses Machine Learning to predict the HDI score from these indicators and classifies the result into different Human Development categories through an interactive web application.
 
 ---
 
@@ -28,81 +28,58 @@ This project uses Machine Learning to predict the HDI score from these indicator
 
 ## 🚀 Features
 
-- Interactive Flask web application
-- Predict HDI using user inputs
-- Automatic Human Development category prediction
-- Clean and responsive user interface
-- Model trained using Linear Regression
-- Data preprocessing and visualization
-- Saved model using Pickle
+- 🌐 Interactive Flask Web Application
+- 🤖 HDI Prediction using Linear Regression
+- 📊 Human Development Category Prediction
+- 🎨 Responsive User Interface
+- 📈 Data Visualization & EDA
+- 💾 Model saved using Pickle
+- 🔄 Predict Again functionality
 
 ---
 
 ## 🛠️ Technology Stack
 
 ### Programming Language
-
 - Python
 
 ### Machine Learning
-
 - Scikit-learn
 - Linear Regression
 
 ### Data Processing
-
 - Pandas
 - NumPy
 
 ### Data Visualization
-
 - Matplotlib
 - Seaborn
 
 ### Backend
-
 - Flask
 
-### Model Serialization
-
-- Pickle
-
 ### Frontend
-
 - HTML
 - CSS
+
+### Model Serialization
+- Pickle
 
 ---
 
 ## 📂 Project Structure
 
-```
-HumanDevelopmentIndex/
+```text
+Human-Development-Index-Predictor
 │
-├── Dataset/
-│   ├── HDI.csv
-│   └── HDI_Simplified.csv
-│
-├── Training/
-│   └── HDI_Model.ipynb
-│
-├── Model/
-│   └── HDI.pkl
-│
-├── Flask/
-│   ├── app.py
-│   ├── HDI.pkl
-│   ├── templates/
-│   │      ├── index.html
-│   │      └── result.html
-│   │
-│   └── static/
-│          ├── css/
-│          └── images/
-│
-├── requirements.txt
+├── Dataset
+├── Flask
+├── Training
+├── images
+│   ├── Home.jpeg
+│   └── Result.jpeg
 ├── README.md
-└── LICENSE
+└── requirements.txt
 ```
 
 ---
@@ -111,14 +88,14 @@ HumanDevelopmentIndex/
 
 The project uses the **Human Development Index Dataset** containing development indicators of different countries.
 
-Selected Features:
+### Input Features
 
 - Life Expectancy
 - Expected Years of Schooling
 - Mean Years of Schooling
-- Gross National Income (GNI) Per Capita
+- Gross National Income (GNI) per Capita
 
-Target:
+### Target
 
 - Human Development Index (HDI)
 
@@ -131,10 +108,9 @@ The following analyses were performed:
 - Dataset Information
 - Missing Value Analysis
 - Statistical Summary
-- Correlation Heatmap
-- HDI Distribution
-- Life Expectancy vs HDI
-- Mean Years of Schooling vs HDI
+- Correlation Analysis
+- Feature Relationships
+- Data Visualization
 
 ---
 
@@ -147,31 +123,28 @@ The following analyses were performed:
 5. Feature Selection
 6. Train-Test Split
 7. Train Linear Regression Model
-8. Predict HDI
-9. Evaluate Performance
-10. Save Model
-11. Deploy with Flask
+8. Evaluate Model
+9. Save Trained Model
+10. Deploy with Flask
 
 ---
 
 ## 📈 Model Performance
 
-Evaluation Metrics
-
 | Metric | Value |
-|----------|---------|
+|---------|-------|
 | Mean Absolute Error | 0.0216 |
 | Mean Squared Error | 0.00106 |
 | Root Mean Squared Error | 0.0326 |
 | R² Score | 0.9582 |
 
-The model achieved approximately **95.8% prediction accuracy (R² Score)**.
+The model achieved an **R² Score of approximately 95.8%**, indicating excellent prediction performance.
 
 ---
 
 ## 🖥️ Web Application
 
-Users enter:
+Users enter the following inputs:
 
 - Life Expectancy
 - Expected Years of Schooling
@@ -183,7 +156,7 @@ The application predicts:
 - HDI Score
 - Human Development Category
 
-Categories:
+### Categories
 
 - 🟢 Very High Human Development
 - 🔵 High Human Development
@@ -197,43 +170,29 @@ Categories:
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Santhoshi003/Human-Development-Index-Predictor.git
 ```
 
-Go to project folder
+Navigate to the project folder
 
 ```bash
-cd HumanDevelopmentIndex
+cd Human-Development-Index-Predictor
 ```
 
-Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate
-
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Install packages
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Flask
+Run the Flask application
 
 ```bash
 cd Flask
 python app.py
 ```
 
-Open
+Open your browser
 
 ```
 http://127.0.0.1:5000
@@ -241,26 +200,40 @@ http://127.0.0.1:5000
 
 ---
 
+## 🎥 Project Demo
+
+**Demo Video**
+
+https://drive.google.com/file/d/1Px5ec6hmMCRiJotMJXiRjVGpo-w2tOnM/view
+
+---
+
 ## 📷 Screenshots
 
-### Home Page
+### 🏠 Home Page
 
-(Add Screenshot)
+<p align="center">
+  <img src="images/Home.jpeg" alt="HDI Home Page" width="900">
+</p>
 
-### Prediction Result
+---
 
-(Add Screenshot)
+### 📊 Prediction Result
+
+<p align="center">
+  <img src="images/Result.jpeg" alt="HDI Prediction Result" width="900">
+</p>
 
 ---
 
 ## 📌 Future Enhancements
 
-- Country dropdown with pre-filled values
-- Multiple Machine Learning algorithms comparison
-- Deep Learning implementation
-- Real-time UNDP dataset integration
-- Interactive dashboards
+- Country-wise HDI comparison
 - Cloud deployment
+- Interactive dashboards
+- Additional Machine Learning algorithms
+- Real-time UNDP dataset integration
+- User authentication
 
 ---
 
@@ -269,8 +242,8 @@ http://127.0.0.1:5000
 Through this project, we gained practical experience in:
 
 - Data Preprocessing
+- Exploratory Data Analysis
 - Data Visualization
-- Feature Engineering
 - Machine Learning
 - Linear Regression
 - Model Evaluation
@@ -280,10 +253,13 @@ Through this project, we gained practical experience in:
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Team Members
 
-**Anaparthi Laxmi Santhoshi**
-
-B.Tech - Artificial Intelligence & Machine Learning
+- **Anaparthi Laxmi Santhoshi**
+- **Pentakota Snehitha**
 
 ---
+
+## 📄 License
+
+This project is developed for **educational and academic purposes only**.
