@@ -208,18 +208,6 @@ https://drive.google.com/file/d/1Px5ec6hmMCRiJotMJXiRjVGpo-w2tOnM/view
 
 ---
 
-## 📷 Screenshots
-
-### 🏠 Home Page
-
-![](Human%20Development%20Index%20Predictor(Project%20Files)/images/Home.jpeg)
-
-### 📊 Prediction Result
-
-![](Human%20Development%20Index%20Predictor(Project%20Files)/images/Result.jpeg)
-
----
-
 ## 📌 Future Enhancements
 
 - Country-wise HDI comparison
