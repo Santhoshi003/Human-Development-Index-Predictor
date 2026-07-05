@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HDI Predictor</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Human Development Index Predictor</h1>
+
+<p>
+Enter the country's development indicators to predict the Human Development Index.
+</p>
+
+<form action="/predict" method="POST">
+
+<label>Life Expectancy</label>
+
+<input type="number"
+       step="0.01"
+       name="life"
+       required>
+
+
+<label>Expected Years of Schooling</label>
+
+<input type="number"
+       step="0.01"
+       name="expected"
+       required>
+
+
+<label>Mean Years of Schooling</label>
+
+<input type="number"
+       step="0.01"
+       name="mean"
+       required>
+
+
+<label>GNI Per Capita</label>
+
+<input type="number"
+       step="0.01"
+       name="gni"
+       required>
+
+
+<button type="submit">
+
+Predict HDI
+
+</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>

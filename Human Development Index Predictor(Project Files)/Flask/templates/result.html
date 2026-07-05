@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌍 Prediction Result</h1>
+
+    <h2>{{ prediction }}</h2>
+
+    <div class="progress">
+        <div class="progress-bar"
+             style="width: {{ prediction * 100 }}%;">
+        </div>
+    </div>
+
+    <br>
+
+    {% if category == "Very High Human Development" %}
+
+        <div class="badge very-high">
+            🟢 {{ category }}
+        </div>
+
+    {% elif category == "High Human Development" %}
+
+        <div class="badge high">
+            🔵 {{ category }}
+        </div>
+
+    {% elif category == "Medium Human Development" %}
+
+        <div class="badge medium">
+            🟠 {{ category }}
+        </div>
+
+    {% else %}
+
+        <div class="badge low">
+            🔴 {{ category }}
+        </div>
+
+    {% endif %}
+
+    <a href="/">
+        <button>🔄 Predict Again</button>
+    </a>
+
+</div>
+
+</body>
+</html>
