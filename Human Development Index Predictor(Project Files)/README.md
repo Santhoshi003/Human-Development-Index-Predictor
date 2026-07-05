@@ -212,15 +212,12 @@ https://drive.google.com/file/d/1Px5ec6hmMCRiJotMJXiRjVGpo-w2tOnM/view
 
 ### 🏠 Home Page
 
-<p align="center">
-  <img src="Human%20Development%20Index%20Predictor(Project%20Files)/images/Home.jpeg" alt="HDI Home Page" width="900">
-</p>
+![](Human%20Development%20Index%20Predictor(Project%20Files)/images/Home.jpeg)
 
 ### 📊 Prediction Result
 
-<p align="center">
-  <img src="Human%20Development%20Index%20Predictor(Project%20Files)/images/Result.jpeg" alt="HDI Prediction Result" width="900">
-</p>
+![](Human%20Development%20Index%20Predictor(Project%20Files)/images/Result.jpeg)
+
 ---
 
 ## 📌 Future Enhancements
