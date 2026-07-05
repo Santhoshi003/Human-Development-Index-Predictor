@@ -213,7 +213,7 @@ https://drive.google.com/file/d/1Px5ec6hmMCRiJotMJXiRjVGpo-w2tOnM/view
 ### 🏠 Home Page
 
 <p align="center">
-  <img src="images/Home.jpeg" alt="HDI Home Page" width="900">
+  <img src="./images/Home.png" alt="HDI Home Page" width="900"/>
 </p>
 
 ---
@@ -221,7 +221,7 @@ https://drive.google.com/file/d/1Px5ec6hmMCRiJotMJXiRjVGpo-w2tOnM/view
 ### 📊 Prediction Result
 
 <p align="center">
-  <img src="images/Result.jpeg" alt="HDI Prediction Result" width="900">
+  <img src="./images/Result.png" alt="HDI Prediction Result" width="900"/>
 </p>
 
 ---
