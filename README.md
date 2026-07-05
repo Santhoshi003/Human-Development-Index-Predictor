@@ -1,19 +1,19 @@
-#  Human Development Index (HDI) Prediction – A Comprehensive Measure of Well-Being
+# 🌍 Human Development Index (HDI) Prediction – A Comprehensive Measure of Well-Being
 
 ## 📌 Project Overview
 
-The **Human Development Index (HDI) Prediction System** is a Machine Learning-based web application that predicts the Human Development Index (HDI) using important socio-economic indicators. The project aims to provide a simple, fast, and accurate way to estimate a country's level of human development through an interactive web interface.
+The **Human Development Index (HDI) Prediction System** is a Machine Learning-based web application that predicts the Human Development Index (HDI) using important socio-economic indicators. The project provides a simple, fast, and accurate way to estimate a country's level of human development through an interactive web interface.
 
-This project was developed using **Python, Flask, Scikit-learn, HTML, and CSS**.
+Developed using **Python, Flask, Scikit-learn, HTML, and CSS**.
 
 ---
 
 ## 🎯 Objectives
 
 - Predict the Human Development Index (HDI) using Machine Learning.
-- Reduce the complexity of manual HDI analysis.
-- Provide an easy-to-use web application for prediction.
-- Support students, researchers, and policymakers with quick predictions.
+- Simplify the process of HDI analysis.
+- Provide a user-friendly web application for instant predictions.
+- Support researchers, students, and policymakers.
 
 ---
 
@@ -22,7 +22,7 @@ This project was developed using **Python, Flask, Scikit-learn, HTML, and CSS**.
 - 📊 Data preprocessing and visualization
 - 🤖 Linear Regression Machine Learning model
 - 🌐 Flask-based web application
-- 📝 User-friendly input interface
+- 📝 User-friendly interface
 - 📈 Instant HDI prediction
 - 🏷️ Human Development category prediction
 - 🔄 Predict Again functionality
@@ -96,8 +96,6 @@ Human-Development-Index-Predictor
 
 ## 📥 Input Parameters
 
-The application accepts the following inputs:
-
 - Life Expectancy
 - Expected Years of Schooling
 - Mean Years of Schooling
@@ -107,7 +105,7 @@ The application accepts the following inputs:
 
 ## 📤 Output
 
-The system predicts:
+The application predicts:
 
 - Human Development Index (HDI)
 - Human Development Category
@@ -121,47 +119,46 @@ Categories include:
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ Installation & Usage
 
-### Step 1
-
-Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Santhoshi003/Human-Development-Index-Predictor.git
 ```
 
-### Step 2
-
-Navigate to the project folder
+### Navigate to the Project Directory
 
 ```bash
 cd Human-Development-Index-Predictor
 ```
 
-### Step 3
-
-Install the required libraries
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4
-
-Run the Flask application
+### Run the Application
 
 ```bash
 python app.py
 ```
 
-### Step 5
-
-Open your browser and visit
+### Open in Browser
 
 ```
 http://127.0.0.1:5000
 ```
+
+---
+
+## 🎥 Project Demo
+
+Watch the complete demonstration of the project here:
+
+**Demo Video:**  
+https://drive.google.com/file/d/1Px5ec6hmMCRiJotMJXiRjVGpo-w2tOnM/view
 
 ---
 
@@ -183,7 +180,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📌 Future Enhancements
+## 🔮 Future Enhancements
 
 - Cloud Deployment
 - User Authentication
@@ -206,10 +203,10 @@ http://127.0.0.1:5000
 **Project Title:**  
 **Human Development Index (HDI) Prediction – A Comprehensive Measure of Well-Being**
 
-Developed as part of an academic Machine Learning project to demonstrate the practical application of predictive analytics in measuring human development.
+This project was developed as part of an academic Machine Learning project to demonstrate the application of predictive analytics in measuring human development.
 
 ---
 
 ## 📄 License
 
-This project is developed for educational and academic purposes only.
+This project is intended for educational and academic purposes only.
